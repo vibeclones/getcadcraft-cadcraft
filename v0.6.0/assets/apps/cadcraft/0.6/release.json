@@ -1,0 +1,17 @@
+{
+    "app": "cadcraft",
+    "version": "0.6",
+    "released_at": "2026-10-19 00:03 UTC",
+    "git": "28f3444 (dev had uncommitted changes)",
+    "libs": {
+        "laz-perf": "0.0.7",
+        "manifold-3d": "3.5.4",
+        "noble-ciphers": "2.4.0",
+        "noble-curves": "2.4.0",
+        "noble-hashes": "2.4.0",
+        "proj4": "2.22.0",
+        "three": "0.186.1",
+        "web-e57": "1.2.0"
+    },
+    "notes": "Most of 0.6 is what you asked for on Discord. ALIGN (by one, two or three point pairs, with scaling) and an Align and distribute panel. Type a calculation wherever a length, point, angle or number is asked (`4+7/16`, `12'6\"+3/4\"`, `(24'-0\")/3`, `2*450mm`), with CAL to print a value. Title blocks and attribute blocks: double-click to edit, ATTEDIT, BATTMAN, ATTSYNC and REFEDIT, all kept in DWG and DXF. Totals for a selection in Properties and the status bar. TRIMEXTENDMODE and a window drag for trim and extend. Paste a picture from the clipboard. EXPORTPOINTS writes points for BIM and survey programs, and ASBUILT compares the points a crew measured. Two free sample drawings (CC0) with a \"Learn from a sample\" walkthrough. E57, PLY, PCD and Leica PTX point clouds. MARKERNEST in the Apparel add-on lays out markers by itself. A second round adds plot style tables kept per sheet, dimensions in mm, cm, m or km, the coordinate system and map layers saved in the drawing (and a geographic location other programs read in DWG 2010+ and DXF 2000), STRETCH with a selection made first, a setting for what an empty click does, who changed an object last in a live session, and pen and touch. Fixed (reported on Discord): mirrored and upside-down blocks and hatches from other programs, objects in a tilted plane, and DWG dimensions that jumped once edited. DWG from Release 12 and earlier now gets a plain message (it still doesn't open). Every app gets Show bars, Reset the layout, a toolbar menu and an interface size. Spanish (es-MX) and, new, Bahasa Indonesia are machine-made drafts, not yet reviewed."
+}
