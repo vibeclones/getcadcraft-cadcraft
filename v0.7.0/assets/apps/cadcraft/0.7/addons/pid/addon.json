@@ -1,0 +1,24 @@
+{
+  "id": "pid",
+  "name": "P&ID",
+  "version": "0.7.0",
+  "apps": [
+    "cadcraft"
+  ],
+  "api": "1.0",
+  "license": "Apache-2.0",
+  "entry": "./main.js",
+  "permissions": [
+    "commands",
+    "toolbar",
+    "panel",
+    "settings",
+    "objects",
+    "files"
+  ],
+  "description": "Process and instrumentation diagrams: symbols drawn by CadCraft (valves with actuators, equipment with nozzles, instruments, in-line items), tagged equipment and instruments, line numbers, line, equipment, instrument and valve lists as CSV or XLSX, and checks for untagged items, duplicate tags and open line ends. A drafting aid, not an engineering approval.",
+  "author": "CadCraft",
+  "lang": "./lang/",
+  "help": "./help/help.js",
+  "default": "off"
+}

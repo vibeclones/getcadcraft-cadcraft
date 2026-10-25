@@ -1,0 +1,40 @@
+{
+    "format": "cadcraft-edition",
+    "version": 1,
+    "app": "cadcraft",
+    "name": "CadCraft",
+    "edition": "browser",
+    "release": "0.7",
+    "semver": "0.7.0",
+    "tag": "cadcraft-v0.7.0",
+    "zip": "cadcraft-browser-edition-v0.7.0.zip",
+    "packed_at": "2026-10-25T01:39:25Z",
+    "from": {
+        "build": "0.7",
+        "released_at": "2026-10-25 01:38 UTC",
+        "git": "d5ef8b8 (dev had uncommitted changes)"
+    },
+    "license": "Apache-2.0",
+    "libs": {
+        "laz-perf": "0.0.7",
+        "liberation-sans": "2.1.5",
+        "manifold-3d": "3.5.4",
+        "noble-ciphers": "2.4.0",
+        "noble-curves": "2.4.0",
+        "noble-hashes": "2.4.0",
+        "pdfjs": "6.3.289",
+        "proj4": "2.22.0",
+        "three": "0.186.1",
+        "web-e57": "1.2.0",
+        "bootstrap": "5.3.8",
+        "bootstrap-icons": "1.13.2",
+        "archivo": "5.2.8"
+    },
+    "changes_to_copied_files": [
+        "Renamed pdf.min.mjs, pdf.mjs, pdf.worker.min.mjs, pdf.worker.mjs to .js (and every reference to them), so servers that do not know the .mjs type still serve them as JavaScript.",
+        "Library URLs written as /assets/vendor/<lib>/current/ are pinned to the versions listed in release.json."
+    ],
+    "files": 844,
+    "bytes_before_this_file": 38161602,
+    "notes": "Release 0.7 (notes: docs/releases/0.7.md)"
+}

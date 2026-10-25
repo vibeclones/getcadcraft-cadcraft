@@ -1,0 +1,24 @@
+{
+  "id": "hvac",
+  "name": "HVAC",
+  "version": "0.5.0",
+  "apps": [
+    "cadcraft"
+  ],
+  "api": "1.0",
+  "license": "Apache-2.0",
+  "entry": "./main.js",
+  "permissions": [
+    "commands",
+    "toolbar",
+    "panel",
+    "settings",
+    "objects",
+    "files"
+  ],
+  "description": "HVAC ductwork: duct runs drawn on a centerline with their elbows, transitions and branch fittings, a double-line plan and solids on the 3D tab from the same run, equal-friction sizing from airflow, and a duct schedule with sheet metal area that goes to TakeoffCraft.",
+  "author": "CadCraft",
+  "lang": "./lang/",
+  "help": "./help/help.js",
+  "default": "off"
+}

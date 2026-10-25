@@ -1,0 +1,41 @@
+{
+  "app": "cadcraft",
+  "css": [
+    "cadcraft.css",
+    "laser/laser-panel.css"
+  ],
+  "module": "cadcraft.js",
+  "imports": {
+    "three": "./assets/vendor/three/0.186.1/three.module.js",
+    "pdfjs-dist": "./assets/vendor/pdfjs/6.3.289/build/pdf.min.js",
+    "manifold-3d": "./assets/vendor/manifold-3d/3.5.4/manifold.js",
+    "proj4": "./assets/vendor/proj4/2.22.0/proj4.esm.min.js",
+    "laz-perf": "./assets/vendor/laz-perf/0.0.7/laz-perf.js",
+    "web-e57/": "./assets/vendor/web-e57/1.2.0/",
+    "liberation-sans/": "./assets/vendor/liberation-sans/2.1.5/",
+    "@noble/curves/": "./assets/vendor/noble-curves/2.4.0/",
+    "@noble/hashes/": "./assets/vendor/noble-hashes/2.4.0/",
+    "@noble/ciphers/": "./assets/vendor/noble-ciphers/2.4.0/"
+  },
+  "pdfWorker": "./assets/vendor/pdfjs/6.3.289/build/pdf.worker.min.js",
+  "pdfCmaps": "./assets/vendor/pdfjs/6.3.289/cmaps/",
+  "pdfFonts": "./assets/vendor/pdfjs/6.3.289/standard_fonts/",
+  "pdfWasm": "./assets/vendor/pdfjs/6.3.289/wasm/",
+  "pdfIcc": "./assets/vendor/pdfjs/6.3.289/iccs/",
+  "accepts": [
+    "handoff",
+    "live"
+  ],
+  "phone": true,
+  "panels": ["move", "window"],
+  "addons": "own",
+  "input": "input-cadcraft.js",
+  "workspaces": {
+    "layouts": [
+      "docked",
+      "toolbox"
+    ],
+    "adapter": "workspace-cadcraft.js"
+  },
+  "hardware": true
+}
